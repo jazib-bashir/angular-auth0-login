@@ -7,9 +7,12 @@ import { AppComponent } from './app.component';
 import { AuthService } from '../services/auth.service';
 import { MY_CONFIG_TOKEN, MY_CONFIG } from '../app.constants';
 
+import { CallbackComponent } from './callback/callback.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CallbackComponent
   ],
   imports: [
     BrowserModule,
