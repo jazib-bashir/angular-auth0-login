@@ -9,12 +9,14 @@ import { MY_CONFIG_TOKEN, MY_CONFIG } from '../app.constants';
 
 import { HomeComponent } from './home/home.component';
 import { CallbackComponent } from './callback/callback.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    CallbackComponent
+    CallbackComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
